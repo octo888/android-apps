@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vm.fitflab.DetailsActivity"
+    android:background="#2ca5f5">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailsTitle"
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/weight"
+        android:id="@+id/detailsImg" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#20000000">
+
+        <TextView
+            android:text="Mark it complete!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:paddingTop="10dp" />
+
+        <CheckBox
+            android:text="Complete set 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:gravity="right|center_vertical"
+            android:checked="false"
+            android:layout_marginBottom="5dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp" />
+
+        <CheckBox
+            android:text="Complete set 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox2"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:gravity="right|center_vertical"
+            android:checked="false"
+            android:layout_marginBottom="5dp"
+            android:paddingRight="20dp" />
+
+        <CheckBox
+            android:text="Complete set 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox3"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:gravity="right|center_vertical"
+            android:checked="false"
+            android:layout_marginBottom="5dp"
+            android:paddingRight="20dp" />
+
+        <CheckBox
+            android:text="Complete set 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox4"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:gravity="right|center_vertical"
+            android:checked="false"
+            android:layout_marginBottom="5dp"
+            android:paddingRight="20dp" />
+
+        <CheckBox
+            android:text="Complete set 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox5"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:gravity="right|center_vertical"
+            android:checked="false"
+            android:layout_marginBottom="5dp"
+            android:paddingRight="20dp" />
+    </LinearLayout>
+</LinearLayout>
